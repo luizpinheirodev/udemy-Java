@@ -1,0 +1,8 @@
+package aula63.entities;
+
+public class Product {
+	
+	private String name;
+	private double price;
+
+}

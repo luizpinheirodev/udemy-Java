@@ -1,0 +1,11 @@
+package exercicios.exercicioFix;
+
+public class Account {
+	
+	private int number;
+	private String name;
+	private double amount;
+	
+	
+
+}

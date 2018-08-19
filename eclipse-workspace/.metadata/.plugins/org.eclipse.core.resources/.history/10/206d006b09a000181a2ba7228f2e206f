@@ -1,0 +1,5 @@
+package exercicios.exercicio1.entities;
+
+public class Rectangle {
+
+}

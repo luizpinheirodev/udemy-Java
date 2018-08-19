@@ -1,0 +1,9 @@
+package exercicios.exercicioVetor.entities;
+
+public class Room {
+	
+	private String name;
+	private String email;
+	private int room;
+
+}

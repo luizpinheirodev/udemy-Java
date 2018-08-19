@@ -1,0 +1,5 @@
+package exercicios.exercicioVetor.entities;
+
+public class Room {
+
+}

@@ -1,0 +1,13 @@
+package exercicios;
+
+import java.util.Scanner;
+
+public class Exercicio4 {
+	
+	
+	Scanner sc = new Scanner(System.in);
+	
+	
+	
+
+}

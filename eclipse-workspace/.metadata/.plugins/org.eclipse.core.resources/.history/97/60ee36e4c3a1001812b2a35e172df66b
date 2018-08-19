@@ -1,0 +1,31 @@
+package exercicios.exercicioVetor.appication;
+
+import java.util.Scanner;
+
+import exercicios.exercicioVetor.entities.Room;
+
+public class Program {
+
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.printf("How many rooms will be rented? ");
+		int num = sc.nextInt();
+		
+		Room vect[] = new Room[num];
+		for(int i = 0;i<vect.length; i++) {
+			sc.nextLine();
+			String name = sc.nextLine();
+			String email = sc.nextLine();
+			int room = sc.nextInt();
+			vect[i] = new Room(name, email, room);
+			
+		}
+		
+		
+		
+		sc.close();
+	}
+
+}
