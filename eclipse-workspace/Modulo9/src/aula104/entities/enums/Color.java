@@ -1,0 +1,9 @@
+package aula104.entities.enums;
+
+public enum Color {
+	
+	BLACK,
+	BLUE,
+	RED;
+
+}
