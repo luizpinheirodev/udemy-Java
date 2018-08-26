@@ -25,8 +25,8 @@ public class Program {
 			System.out.print("Individual or company (i/c)? ");
 			char ch = sc.next().charAt(0);
 			System.out.print("Name: ");
-			String name = sc.nextLine();
 			sc.nextLine();
+			String name = sc.nextLine();
 			System.out.print("Anual income: ");
 			double anualIncome = sc.nextDouble();
 			if (ch == 'i') {
